@@ -95,7 +95,6 @@ public class TemplatesTest {
      * $END$;
      * }
      * 定义：勾选Java
-     * <p>
      * 之后就可以直接使用自定义的模板
      */
 

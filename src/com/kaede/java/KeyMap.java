@@ -20,6 +20,7 @@ import java.util.List;
  * Ctrl + F	在当前文件进行文本查找 （必备）
  * Ctrl + R	在当前文件进行文本替换 （必备）
  * Ctrl + Z	撤销 （必备）
+ * Ctrl + P	方法参数提示显示
  * Ctrl + Y	删除光标所在行 或 删除选中的行 （必备）
  * Ctrl + C	复制光标所在行 或 复制选择内容 （必备）
  * Ctrl + V 粘贴光标所在行 或 复制选择内容 （必备）
@@ -84,6 +85,7 @@ import java.util.List;
  * Ctrl + Alt + 左方向键	退回到上一个操作的地方 （必备）（注意与其他软件快捷键冲突）
  * Ctrl + Alt + 右方向键	前进到上一个操作的地方 （必备）（注意与其他软件快捷键冲突）
  * Ctrl + Alt + H	调用层次 （必备）
+ * Ctrl + Alt + M   提取方法
  *
  * Ctrl + Shift
  * 快捷键	介绍
@@ -135,7 +137,6 @@ import java.util.List;
  * 不常用快捷键
  * Ctrl
  * 快捷键    介绍
- * Ctrl + P	方法参数提示显示
  * Ctrl + G	在当前文件跳转到指定行处
  * Ctrl + E	显示最近打开的文件记录列表
  * Ctrl + Q	光标所在的变量 / 类名 / 方法名等上面（也可以在提示补充的时候按），显示文档内容
@@ -264,7 +265,7 @@ class TheClass {
     public TheClass() {
     }
 
-    //按住ctrl单击鼠标左键可以实现多选，或者直接双击单选，ctrl + A全选
+    //按住alt单击鼠标左键可以实现多选，或者直接双击单选，ctrl + A全选
     public TheClass(String name, int age, String... hobby) {
         this.name = name;
         this.age = age;
